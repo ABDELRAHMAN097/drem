@@ -53,11 +53,7 @@ const EmailSection = () => {
 
       {/* Contact Form */}
       <div>
-        {emailSubmitted ? (
-          <p className="text-green-500 text-sm mt-2">
-            ✅ Thank you! Your message has been sent successfully.
-          </p>
-        ) : (
+       
           <form className="flex flex-col" onSubmit={handleSubmit}>
             <div className="mb-6">
               <label htmlFor="email" className="text-white block mb-2 text-sm font-medium">
@@ -104,7 +100,6 @@ const EmailSection = () => {
               Send Message
             </button>
           </form>
-        )}
       </div>
     </section>
   );
