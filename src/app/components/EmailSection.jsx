@@ -1,8 +1,7 @@
 "use client";
-import GithubIcon from "../../../public/github-icon.svg";
-import LinkedinIcon from "../../../public/linkedin-icon.svg";
 import Link from "next/link";
-import Image from "next/image";
+import { FaSquareFacebook } from "react-icons/fa6";
+import { FaLinkedin } from "react-icons/fa";
 
 const EmailSection = () => {
   // const [emailSubmitted, setEmailSubmitted] = useState(false);
@@ -41,11 +40,12 @@ const EmailSection = () => {
           If you have any inquiries, feel free to reach out. We will get back to you as soon as possible!
         </p>
         <div className="socials flex flex-row gap-4">
-          <Link href="https://github.com/DreamTech" target="_blank">
-            <Image src={GithubIcon} alt="GitHub" />
+        <Link href="https://www.facebook.com/share/1ANn4kjfpP/?mibextid=wwXIfr" target="_blank">
+        <FaSquareFacebook className="text-2xl" />
+
           </Link>
-          <Link href="https://www.facebook.com/share/1ANn4kjfpP/?mibextid=wwXIfr" target="_blank">
-            <Image src={LinkedinIcon} alt="LinkedIn" />
+          <Link href="https://www.linkedin.com/in/dream-tech-2046b7352/" target="_blank">
+          <FaLinkedin className="text-2xl" />
           </Link>
         </div>
       </div>
