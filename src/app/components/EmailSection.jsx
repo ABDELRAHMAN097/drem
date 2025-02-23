@@ -54,7 +54,7 @@ const EmailSection = () => {
       {/* Contact Form */}
       <div>
        
-          <form className="flex flex-col" onSubmit={handleSubmit}>
+          <form className="flex flex-col" >
             <div className="mb-6">
               <label htmlFor="email" className="text-white block mb-2 text-sm font-medium">
                 Your Email
