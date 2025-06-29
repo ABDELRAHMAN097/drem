@@ -18,7 +18,7 @@ const EmailSection = () => {
       message: `${form.subject.value} - ${form.message.value}`,
     };
 
-    const res = await fetch("https://bodymagdy-api.lovestoblog.com/contact.php", {
+    const res = await fetch("/api/contact", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
