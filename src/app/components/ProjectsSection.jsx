@@ -21,7 +21,7 @@ const projectsData = [
     image: "/images/projects/2.png",
     tag: ["All", "Web"],
     gitUrl: "/",
-    previewUrl: "/",
+    previewUrl: "https://portfolio.adobe.com/photography",
   },
   {
     id: 3,
